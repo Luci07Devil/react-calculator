@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(24, 24, 24);
+}
+
+.app{
+  width: 500px;
+}
+
+.allButtons button{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(49, 49, 49);
+  outline: none;
+  border: none;
+  margin: 10px;
+  font-size: 40px;
+  transition: 0.5s ease-out;
+  font-family: Helvetica;
+  color: white;
+}
+
+.allButtons button:active{
+  background-color: rgb(100, 100, 100);
+}
+
+.allButtons button:hover{
+  background-color: rgba(255, 255, 255,0.8);
+}
+
+.row1 button{
+  background-color: rgb(160, 160, 160);
+  color: black;
+}
+
+#orange {
+  background-color: #f5923e;
+  color: white;
+}
+
+#orange:hover{
+  background-color: rgb(187, 90, 0);
+}
+
+#zero{
+  width: 220px;
+  border-radius: 50px;
+}
+
+#display{
+  margin-right: auto;
+  margin-top:100px;
+  margin-bottom:20px;
+  margin-left:10px;
+  height: 100px;
+  width: 450px;
+  font-size: 100px;
+  color: white;
+  background: none;
+  border: none;
+  outline: none;
+  font-family: Helvetica;
+  font-weight: 200;
+}
